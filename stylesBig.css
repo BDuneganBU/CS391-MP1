@@ -1,0 +1,145 @@
+/* sets up general CSS requirements for the entire page */
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(196, 178, 121);
+    margin: 0%;
+}
+
+/* all control of items in the header bar */
+header {
+    background-color:rgb(114, 99, 156);
+}
+header p {
+    margin-left: 2%;
+    padding: 1%;
+    padding-top: 0%;
+    font-size: calc(2px + 1vw);
+}
+header h1 {
+    padding: 1%;
+    padding-bottom: 0%;
+    font-size: calc(2px + 2vw);
+}
+
+/* all control of items in the nav bar */
+nav{   
+    background-color: rgb(71, 36, 92);
+    height: 120%;
+    width: 15%;
+    float:left;
+    display: inline;
+}
+nav li {
+    display: block;
+    padding-right: 30%;
+    padding-left: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(114, 99, 156);
+}
+ul {
+    list-style: none;
+    text-align: center;
+}
+ul a:link {
+    font-size: calc(2px + 1vw);
+    text-decoration: none; 
+    color:rgb(163, 184, 202)
+} 
+ul a:visited { 
+    text-decoration: none; 
+    color:rgb(163, 184, 202)
+} 
+ul a:hover { 
+    text-decoration: none; 
+} 
+ul a:active { 
+    text-decoration: none; 
+}
+
+/* all control for items in the main body of the page */
+main {
+    margin: 2% 0% 0% 15%;
+    padding: 0%;
+    width: 70%;
+    font-size: calc(2px + 1vw);
+}
+main p {
+    padding: 1%;
+}
+main img {
+    padding: 2%;
+    width: 25vw;
+}
+main h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* control of the table used to display classes taken in the education page */
+#classes table, #classes th, #classes td {
+    margin: 1%;
+    border: 1px solid black;
+}
+
+div {
+    width: 20%;
+    /* margin: 0% 0% 50% 15%; */
+    padding: 0%;
+    font-size: calc(2px + 1vw);
+    align-content: center;
+}
+div button {
+    font-size: calc(2px + 1vw);
+    padding: 0.5%;
+}
+
+div input {
+    font-size: calc(2px + 1vw);
+    padding: 0.5%;
+}
+div h3 {
+    outline: auto;
+}
+/* items used to control styling of the items used in the calculator under projects */
+#calc table {
+    text-align: center;
+}
+#calc td {
+    padding: 2%;
+}
+#calc th {
+    text-decoration: underline;
+}
+#calc input {
+    font-size: calc(2px + 1vw);
+    background-color: rgb(158, 144, 99);
+}
+#calc button {
+    font-size: calc(2px + 1vw);
+    background-color: rgb(158, 144, 99);
+}
+
+
+
+
+
+footer {
+    margin: 0%;
+    padding: 0.5%;
+    font-size: calc(2px + 0.75vw);
+    text-align: right;
+    margin-top: auto;
+}

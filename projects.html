@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <!-- default 750+ -->
+        <link rel="stylesheet" href="stylesBig.css" />
+        <!-- if resolution lower than 750px -->
+        <link rel="stylesheet" media="screen and (max-width: 750px)" href="stylesSmall.css" />
+        <title>Projects Page</title>
+    </head>
+    <body>
+        <!--The header bar for the page-->
+        <header>
+            <h1>
+                Projects
+            </h1>
+            <p>
+                This page serves to list the projects I have created!
+            </p>
+        </header>
+
+        <!--The nav bar for the page-->
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./education.html">Education</a></li>
+                <li><a href="./work.html">Work Experience</a></li>
+                <li><a href="./exp.html">General Experience</a></li>
+                <li><a href="./achievements.html">Achievements</a></li>
+            </ul>
+        </nav>
+        <!--The main body for the page-->
+        <main>
+            <h2>Projects</h2>
+            <img src="./wedding.jpg" width="400px">
+            <p>
+                I have done a few projects relating to the field of Computer Science. These include a web app which played spotify songs based on a satillites launch year, 
+                a CSV visualization tool to help calculate contract worker's 1099 tax returns, and various games or puzzles from different classes.
+                <a href="https://github.com/">Github</a>
+            </p>
+            <br>
+            <!--This is the outside div wrapper for my calculator-->
+            <div id="calc">
+                <table>
+                    <tr>
+                        <th><ul>Calculator</ul></th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="first-number">First Number: </label><input id="first-number">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="second-number">Second Number: </label><input id="second-number">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="addition()">+</button>
+                            <button onclick="subtraction()">-</button>
+                            <button onclick="multiplication()">*</button>
+                            <button onclick="division()">/</button>
+                            <button onclick="power()">**</button>
+                            <button onclick="rem()">C</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3 id="output"></h3>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!--connection to JS file-->
+            <script src="script.js"></script>
+        </main>
+
+        <!--The footer bar for the page-->
+        <footer>
+            <p>All rights reserved by Brandon Dunegan <a href="https://www.copyright.gov/">Credits</a> &copy </p>
+        </footer>
+    </body>
+</html>
