@@ -101,6 +101,14 @@ main h2 {
     margin: 1%;
     border: 1px solid black;
 }
+main ul {
+    padding: 3%;
+}
+main li {
+    list-style: circle;
+    text-align: left;
+    font-size: calc(2px + 2vw);
+}
 
 /* control for the footer in mobile view format */
 footer {

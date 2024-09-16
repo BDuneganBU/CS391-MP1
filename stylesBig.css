@@ -87,13 +87,18 @@ main h2 {
     text-align: center;
     text-decoration: underline;
 }
-
+main ul {
+    padding: 3%;
+}
+main li {
+    list-style: circle;
+    text-align: left;
+}
 /* control of the table used to display classes taken in the education page */
 #classes table, #classes th, #classes td {
     margin: 1%;
     border: 1px solid black;
 }
-
 div {
     width: 20%;
     /* margin: 0% 0% 50% 15%; */
@@ -132,10 +137,7 @@ div h3 {
     background-color: rgb(158, 144, 99);
 }
 
-
-
-
-
+/* control of the footer style */
 footer {
     margin: 0%;
     padding: 0.5%;
